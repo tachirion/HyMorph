@@ -1,0 +1,875 @@
+{
+  "Node2Vec": {
+    "ari": 0.004363891111181332,
+    "nmi": 0.02265992104996924,
+    "silhouette": 0.03354821726679802,
+    "nn_results": {
+      "գիր": [
+        "գրություն",
+        "գիրուկ",
+        "անգիր",
+        "գրական",
+        "գիրացում"
+      ],
+      "գրիչ": [
+        "ջերմագրիչ",
+        "քարեգրիչ",
+        "խոնավագրիչ",
+        "մագնիսագրիչ",
+        "ոսկեգրիչ"
+      ],
+      "գրություն": [
+        "գրական",
+        "գիր",
+        "ստորագրություն",
+        "կրոնագրություն",
+        "դաշնագրություն"
+      ],
+      "սիրել": [
+        "սերել",
+        "սիրեցնել",
+        "սիրարկու",
+        "սիրային",
+        "սիրանք"
+      ],
+      "սիրուն": [
+        "սիրունանալ",
+        "սիրունիկ",
+        "սիրունացնել",
+        "սիրելի",
+        "սիրունակ"
+      ],
+      "սիրահար": [
+        "սիրահարական",
+        "սիրահարեցնել",
+        "սիրահարաբար",
+        "սիրահալ",
+        "սիրահարվել"
+      ],
+      "լույս": [
+        "անլույս",
+        "լուսալի",
+        "լուսել",
+        "լուսացնել",
+        "լուսային"
+      ],
+      "լուսին": [
+        "անլուսին",
+        "սին",
+        "բոլորալուսին",
+        "նորալուսին",
+        "մեղրալուսին"
+      ],
+      "լուսավոր": [
+        "լուսավորապես",
+        "լուսավորական",
+        "լուսավորականություն",
+        "լուսավորաբար",
+        "լուսավորել"
+      ]
+    },
+    "auc": NaN,
+    "ap": NaN,
+    "f1": NaN,
+    "precision": NaN,
+    "recall": NaN,
+    "mrr": NaN,
+    "hits1": NaN,
+    "hits5": NaN,
+    "hits10": NaN,
+    "analogy": {
+      "nominalization": {
+        "acc@1": 0.412,
+        "acc@5": 0.628,
+        "acc@10": 0.638,
+        "metric": "root_member",
+        "n": 500
+      },
+      "adjectivalization": {
+        "acc@1": 0.76,
+        "acc@5": 0.94,
+        "acc@10": 0.95,
+        "metric": "root_member",
+        "n": 500
+      },
+      "verbalization": {
+        "acc@1": 0.464,
+        "acc@5": 0.91,
+        "acc@10": 0.962,
+        "metric": "root_member",
+        "n": 500
+      },
+      "other_suffixation": {
+        "acc@1": 0.306,
+        "acc@5": 0.532,
+        "acc@10": 0.54,
+        "metric": "root_member",
+        "n": 500
+      },
+      "demonym": {
+        "acc@1": 0.324,
+        "acc@5": 0.684,
+        "acc@10": 0.83,
+        "metric": "root_member",
+        "n": 500
+      },
+      "negation_prefix": {
+        "acc@1": 0.248,
+        "acc@5": 0.608,
+        "acc@10": 0.808,
+        "metric": "root_member",
+        "n": 500
+      },
+      "intensifying_prefix": {
+        "acc@1": 0.248,
+        "acc@5": 0.632,
+        "acc@10": 0.758,
+        "metric": "root_member",
+        "n": 500
+      },
+      "directional_prefix": {
+        "acc@1": 0.294,
+        "acc@5": 0.668,
+        "acc@10": 0.822,
+        "metric": "root_member",
+        "n": 500
+      },
+      "locative_prefix": {
+        "acc@1": 0.352,
+        "acc@5": 0.728,
+        "acc@10": 0.906,
+        "metric": "root_member",
+        "n": 500
+      },
+      "temporal_prefix": {
+        "acc@1": 0.224,
+        "acc@5": 0.532,
+        "acc@10": 0.674,
+        "metric": "root_member",
+        "n": 500
+      },
+      "root_compound": {
+        "acc@1": 0.402,
+        "acc@5": 0.9,
+        "acc@10": 0.948,
+        "metric": "root_member",
+        "n": 500
+      },
+      "synthetic_compound": {
+        "acc@1": 0.166,
+        "acc@5": 0.262,
+        "acc@10": 0.448,
+        "metric": "root_member",
+        "n": 500
+      },
+      "adjective_compound": {
+        "acc@1": 0.164,
+        "acc@5": 0.586,
+        "acc@10": 0.7,
+        "metric": "root_member",
+        "n": 500
+      },
+      "compound_component": {
+        "acc@1": 0.49,
+        "acc@5": 0.674,
+        "acc@10": 0.774,
+        "metric": "root_member",
+        "n": 500
+      },
+      "causative": {
+        "acc@1": 0.216,
+        "acc@5": 0.556,
+        "acc@10": 0.654,
+        "metric": "root_member",
+        "n": 500
+      },
+      "detransitive": {
+        "acc@1": 0.208,
+        "acc@5": 0.822,
+        "acc@10": 0.888,
+        "metric": "root_member",
+        "n": 500
+      },
+      "diminutive": {
+        "acc@1": 0.414,
+        "acc@5": 0.736,
+        "acc@10": 0.846,
+        "metric": "root_member",
+        "n": 500
+      },
+      "reduplication": {
+        "acc@1": 0.106,
+        "acc@5": 0.428,
+        "acc@10": 0.55,
+        "metric": "root_member",
+        "n": 500
+      },
+      "denominalization": {
+        "acc@1": 0.36,
+        "acc@5": 0.576,
+        "acc@10": 0.616,
+        "metric": "root_member",
+        "n": 500
+      },
+      "deadjectivalization": {
+        "acc@1": 0.828,
+        "acc@5": 0.914,
+        "acc@10": 0.946,
+        "metric": "root_member",
+        "n": 500
+      },
+      "deverbalization": {
+        "acc@1": 0.408,
+        "acc@5": 0.762,
+        "acc@10": 0.824,
+        "metric": "root_member",
+        "n": 500
+      },
+      "other_suffixation_inv": {
+        "acc@1": 0.296,
+        "acc@5": 0.432,
+        "acc@10": 0.44,
+        "metric": "root_member",
+        "n": 500
+      },
+      "demonym_inv": {
+        "acc@1": 0.482,
+        "acc@5": 0.734,
+        "acc@10": 0.88,
+        "metric": "root_member",
+        "n": 500
+      },
+      "negation_prefix_inv": {
+        "acc@1": 0.346,
+        "acc@5": 0.726,
+        "acc@10": 0.872,
+        "metric": "root_member",
+        "n": 500
+      },
+      "intensifying_prefix_inv": {
+        "acc@1": 0.258,
+        "acc@5": 0.732,
+        "acc@10": 0.88,
+        "metric": "root_member",
+        "n": 500
+      },
+      "directional_prefix_inv": {
+        "acc@1": 0.594,
+        "acc@5": 0.912,
+        "acc@10": 0.96,
+        "metric": "root_member",
+        "n": 500
+      },
+      "locative_prefix_inv": {
+        "acc@1": 0.342,
+        "acc@5": 0.792,
+        "acc@10": 0.872,
+        "metric": "root_member",
+        "n": 500
+      },
+      "temporal_prefix_inv": {
+        "acc@1": 0.336,
+        "acc@5": 0.722,
+        "acc@10": 0.86,
+        "metric": "root_member",
+        "n": 500
+      },
+      "causative_inv": {
+        "acc@1": 0.27,
+        "acc@5": 0.57,
+        "acc@10": 0.662,
+        "metric": "root_member",
+        "n": 500
+      },
+      "detransitive_inv": {
+        "acc@1": 0.374,
+        "acc@5": 0.834,
+        "acc@10": 0.904,
+        "metric": "root_member",
+        "n": 500
+      }
+    }
+  },
+  "FastText": {
+    "ari": 0.08687155378241233,
+    "nmi": 0.2072543292188463,
+    "silhouette": 0.04652021452784538,
+    "nn_results": {
+      "գիր": [
+        "բալլադագիր",
+        "օրագիր",
+        "եկագիր",
+        "ազդագիր",
+        "տպագիր"
+      ],
+      "գրիչ": [
+        "տպագրիչ",
+        "ցրիչ",
+        "գրգռիչ",
+        "գծագրիչ",
+        "լուսահեռագրիչ"
+      ],
+      "գրություն": [
+        "սղագրություն",
+        "կցագրություն",
+        "ծրագրություն",
+        "բալլադագրություն",
+        "նովելագրություն"
+      ],
+      "սիրել": [
+        "էլոքսիրել",
+        "սիրելի",
+        "իմաստասիրել",
+        "սերել",
+        "սիրուհի"
+      ],
+      "սիրուն": [
+        "սիրունիկ",
+        "սիրունադեմք",
+        "սիրունանալ",
+        "սերուն",
+        "սիրունացնել"
+      ],
+      "սիրահար": [
+        "սիրահարկոտ",
+        "ինքնասիրահար",
+        "սիրահարաբար",
+        "սիրահարեցնել",
+        "սիրահարում"
+      ],
+      "լույս": [
+        "լուսելույս",
+        "շվաքլույս",
+        "լուսնելույս",
+        "օրալույս",
+        "նսեմալույս"
+      ],
+      "լուսին": [
+        "լուսե",
+        "լուսիկ",
+        "լուսով",
+        "լուսելուս",
+        "լու"
+      ],
+      "լուսավոր": [
+        "լուսավորիչ",
+        "լուսավորչական",
+        "լուսավորել",
+        "լուսավորածուխ",
+        "լուսավորում"
+      ]
+    },
+    "auc": NaN,
+    "ap": NaN,
+    "f1": NaN,
+    "precision": NaN,
+    "recall": NaN,
+    "mrr": NaN,
+    "hits1": NaN,
+    "hits5": NaN,
+    "hits10": NaN,
+    "analogy": {
+      "nominalization": {
+        "acc@1": 0.402,
+        "acc@5": 0.642,
+        "acc@10": 0.75,
+        "metric": "root_member",
+        "n": 500
+      },
+      "adjectivalization": {
+        "acc@1": 0.932,
+        "acc@5": 0.998,
+        "acc@10": 1.0,
+        "metric": "root_member",
+        "n": 500
+      },
+      "verbalization": {
+        "acc@1": 0.708,
+        "acc@5": 0.892,
+        "acc@10": 0.942,
+        "metric": "root_member",
+        "n": 500
+      },
+      "other_suffixation": {
+        "acc@1": 0.11,
+        "acc@5": 0.262,
+        "acc@10": 0.382,
+        "metric": "root_member",
+        "n": 500
+      },
+      "demonym": {
+        "acc@1": 0.768,
+        "acc@5": 0.892,
+        "acc@10": 0.922,
+        "metric": "root_member",
+        "n": 500
+      },
+      "negation_prefix": {
+        "acc@1": 0.68,
+        "acc@5": 0.862,
+        "acc@10": 0.912,
+        "metric": "root_member",
+        "n": 500
+      },
+      "intensifying_prefix": {
+        "acc@1": 0.882,
+        "acc@5": 0.956,
+        "acc@10": 0.97,
+        "metric": "root_member",
+        "n": 500
+      },
+      "directional_prefix": {
+        "acc@1": 0.678,
+        "acc@5": 0.82,
+        "acc@10": 0.884,
+        "metric": "root_member",
+        "n": 500
+      },
+      "locative_prefix": {
+        "acc@1": 0.806,
+        "acc@5": 0.918,
+        "acc@10": 0.946,
+        "metric": "root_member",
+        "n": 500
+      },
+      "temporal_prefix": {
+        "acc@1": 0.818,
+        "acc@5": 0.876,
+        "acc@10": 0.904,
+        "metric": "root_member",
+        "n": 500
+      },
+      "root_compound": {
+        "acc@1": 0.322,
+        "acc@5": 0.57,
+        "acc@10": 0.668,
+        "metric": "root_member",
+        "n": 500
+      },
+      "synthetic_compound": {
+        "acc@1": 0.198,
+        "acc@5": 0.252,
+        "acc@10": 0.37,
+        "metric": "root_member",
+        "n": 500
+      },
+      "adjective_compound": {
+        "acc@1": 0.078,
+        "acc@5": 0.268,
+        "acc@10": 0.44,
+        "metric": "root_member",
+        "n": 500
+      },
+      "compound_component": {
+        "acc@1": 0.11,
+        "acc@5": 0.358,
+        "acc@10": 0.47,
+        "metric": "root_member",
+        "n": 500
+      },
+      "causative": {
+        "acc@1": 0.926,
+        "acc@5": 0.968,
+        "acc@10": 0.982,
+        "metric": "root_member",
+        "n": 500
+      },
+      "detransitive": {
+        "acc@1": 0.988,
+        "acc@5": 0.998,
+        "acc@10": 1.0,
+        "metric": "root_member",
+        "n": 500
+      },
+      "diminutive": {
+        "acc@1": 0.576,
+        "acc@5": 0.806,
+        "acc@10": 0.898,
+        "metric": "root_member",
+        "n": 500
+      },
+      "reduplication": {
+        "acc@1": 1.0,
+        "acc@5": 1.0,
+        "acc@10": 1.0,
+        "metric": "root_member",
+        "n": 500
+      },
+      "denominalization": {
+        "acc@1": 0.262,
+        "acc@5": 0.498,
+        "acc@10": 0.562,
+        "metric": "root_member",
+        "n": 500
+      },
+      "deadjectivalization": {
+        "acc@1": 0.89,
+        "acc@5": 0.95,
+        "acc@10": 0.956,
+        "metric": "root_member",
+        "n": 500
+      },
+      "deverbalization": {
+        "acc@1": 0.226,
+        "acc@5": 0.506,
+        "acc@10": 0.61,
+        "metric": "root_member",
+        "n": 500
+      },
+      "other_suffixation_inv": {
+        "acc@1": 0.114,
+        "acc@5": 0.238,
+        "acc@10": 0.256,
+        "metric": "root_member",
+        "n": 500
+      },
+      "demonym_inv": {
+        "acc@1": 0.69,
+        "acc@5": 0.972,
+        "acc@10": 0.984,
+        "metric": "root_member",
+        "n": 500
+      },
+      "negation_prefix_inv": {
+        "acc@1": 0.788,
+        "acc@5": 0.916,
+        "acc@10": 0.942,
+        "metric": "root_member",
+        "n": 500
+      },
+      "intensifying_prefix_inv": {
+        "acc@1": 0.648,
+        "acc@5": 0.982,
+        "acc@10": 0.998,
+        "metric": "root_member",
+        "n": 500
+      },
+      "directional_prefix_inv": {
+        "acc@1": 0.622,
+        "acc@5": 0.818,
+        "acc@10": 0.884,
+        "metric": "root_member",
+        "n": 500
+      },
+      "locative_prefix_inv": {
+        "acc@1": 0.786,
+        "acc@5": 0.936,
+        "acc@10": 0.978,
+        "metric": "root_member",
+        "n": 500
+      },
+      "temporal_prefix_inv": {
+        "acc@1": 0.748,
+        "acc@5": 0.892,
+        "acc@10": 0.94,
+        "metric": "root_member",
+        "n": 500
+      },
+      "causative_inv": {
+        "acc@1": 0.79,
+        "acc@5": 0.92,
+        "acc@10": 0.948,
+        "metric": "root_member",
+        "n": 500
+      },
+      "detransitive_inv": {
+        "acc@1": 0.998,
+        "acc@5": 1.0,
+        "acc@10": 1.0,
+        "metric": "root_member",
+        "n": 500
+      }
+    }
+  },
+  "XLM-R": {
+    "ari": 0.026756191971106406,
+    "nmi": 0.06758758141572756,
+    "silhouette": 0.06835409998893738,
+    "nn_results": {
+      "գիր": [
+        "ռադիոհեռադիտակ",
+        "ռադիոհեռագիր",
+        "ձայնահաղորդականություն",
+        "ծածկագիր",
+        "ռադիոսարքավորում"
+      ],
+      "գրիչ": [
+        "գրքույկ",
+        "մատյան",
+        "դակիչ",
+        "գրապահարան",
+        "գրասեր"
+      ],
+      "գրություն": [
+        "հեղինակել",
+        "գրականություն",
+        "գրախոս",
+        "գիրք",
+        "նշանագիր"
+      ],
+      "սիրել": [
+        "վստահ",
+        "հետաքրքրություն",
+        "ստորադրել",
+        "հավակնել",
+        "հարաբերական"
+      ],
+      "սիրուն": [
+        "սիրելական",
+        "նանիկ",
+        "լարուն",
+        "գիտուն",
+        "հասուկ"
+      ],
+      "սիրահար": [
+        "սիրահարվել",
+        "փողապաշտ",
+        "սեռակից",
+        "նույնասեռ",
+        "ինքնասիրություն"
+      ],
+      "լույս": [
+        "լիս",
+        "լուսաբեկում",
+        "տեսաթումբ",
+        "երկրակենտրոնություն",
+        "շնչահեղձություն"
+      ],
+      "լուսին": [
+        "հասարակած",
+        "երկնային",
+        "լուսնախցիկ",
+        "շող",
+        "առեղծվածային"
+      ],
+      "լուսավոր": [
+        "ժամատուն",
+        "լուսանալ",
+        "լուսնաշուրջ",
+        "թաղար",
+        "ամրոց"
+      ]
+    },
+    "auc": NaN,
+    "ap": NaN,
+    "f1": NaN,
+    "precision": NaN,
+    "recall": NaN,
+    "mrr": NaN,
+    "hits1": NaN,
+    "hits5": NaN,
+    "hits10": NaN,
+    "analogy": {
+      "nominalization": {
+        "acc@1": 0.06,
+        "acc@5": 0.084,
+        "acc@10": 0.088,
+        "metric": "root_member",
+        "n": 500
+      },
+      "adjectivalization": {
+        "acc@1": 0.08,
+        "acc@5": 0.144,
+        "acc@10": 0.162,
+        "metric": "root_member",
+        "n": 500
+      },
+      "verbalization": {
+        "acc@1": 0.09,
+        "acc@5": 0.202,
+        "acc@10": 0.24,
+        "metric": "root_member",
+        "n": 500
+      },
+      "other_suffixation": {
+        "acc@1": 0.092,
+        "acc@5": 0.176,
+        "acc@10": 0.188,
+        "metric": "root_member",
+        "n": 500
+      },
+      "demonym": {
+        "acc@1": 0.07,
+        "acc@5": 0.094,
+        "acc@10": 0.116,
+        "metric": "root_member",
+        "n": 500
+      },
+      "negation_prefix": {
+        "acc@1": 0.002,
+        "acc@5": 0.008,
+        "acc@10": 0.012,
+        "metric": "root_member",
+        "n": 500
+      },
+      "intensifying_prefix": {
+        "acc@1": 0.018,
+        "acc@5": 0.032,
+        "acc@10": 0.042,
+        "metric": "root_member",
+        "n": 500
+      },
+      "directional_prefix": {
+        "acc@1": 0.006,
+        "acc@5": 0.006,
+        "acc@10": 0.012,
+        "metric": "root_member",
+        "n": 500
+      },
+      "locative_prefix": {
+        "acc@1": 0.018,
+        "acc@5": 0.046,
+        "acc@10": 0.066,
+        "metric": "root_member",
+        "n": 500
+      },
+      "temporal_prefix": {
+        "acc@1": 0.008,
+        "acc@5": 0.028,
+        "acc@10": 0.04,
+        "metric": "root_member",
+        "n": 500
+      },
+      "root_compound": {
+        "acc@1": 0.02,
+        "acc@5": 0.066,
+        "acc@10": 0.076,
+        "metric": "root_member",
+        "n": 500
+      },
+      "synthetic_compound": {
+        "acc@1": 0.002,
+        "acc@5": 0.018,
+        "acc@10": 0.03,
+        "metric": "root_member",
+        "n": 500
+      },
+      "adjective_compound": {
+        "acc@1": 0.014,
+        "acc@5": 0.03,
+        "acc@10": 0.042,
+        "metric": "root_member",
+        "n": 500
+      },
+      "compound_component": {
+        "acc@1": 0.034,
+        "acc@5": 0.064,
+        "acc@10": 0.076,
+        "metric": "root_member",
+        "n": 500
+      },
+      "causative": {
+        "acc@1": 0.114,
+        "acc@5": 0.17,
+        "acc@10": 0.194,
+        "metric": "root_member",
+        "n": 500
+      },
+      "detransitive": {
+        "acc@1": 0.118,
+        "acc@5": 0.21,
+        "acc@10": 0.248,
+        "metric": "root_member",
+        "n": 500
+      },
+      "diminutive": {
+        "acc@1": 0.088,
+        "acc@5": 0.108,
+        "acc@10": 0.12,
+        "metric": "root_member",
+        "n": 500
+      },
+      "reduplication": {
+        "acc@1": 0.008,
+        "acc@5": 0.02,
+        "acc@10": 0.024,
+        "metric": "root_member",
+        "n": 500
+      },
+      "denominalization": {
+        "acc@1": 0.036,
+        "acc@5": 0.044,
+        "acc@10": 0.052,
+        "metric": "root_member",
+        "n": 500
+      },
+      "deadjectivalization": {
+        "acc@1": 0.066,
+        "acc@5": 0.136,
+        "acc@10": 0.162,
+        "metric": "root_member",
+        "n": 500
+      },
+      "deverbalization": {
+        "acc@1": 0.008,
+        "acc@5": 0.028,
+        "acc@10": 0.048,
+        "metric": "root_member",
+        "n": 500
+      },
+      "other_suffixation_inv": {
+        "acc@1": 0.004,
+        "acc@5": 0.032,
+        "acc@10": 0.034,
+        "metric": "root_member",
+        "n": 500
+      },
+      "demonym_inv": {
+        "acc@1": 0.03,
+        "acc@5": 0.046,
+        "acc@10": 0.05,
+        "metric": "root_member",
+        "n": 500
+      },
+      "negation_prefix_inv": {
+        "acc@1": 0.002,
+        "acc@5": 0.006,
+        "acc@10": 0.006,
+        "metric": "root_member",
+        "n": 500
+      },
+      "intensifying_prefix_inv": {
+        "acc@1": 0.014,
+        "acc@5": 0.022,
+        "acc@10": 0.032,
+        "metric": "root_member",
+        "n": 500
+      },
+      "directional_prefix_inv": {
+        "acc@1": 0.018,
+        "acc@5": 0.06,
+        "acc@10": 0.08,
+        "metric": "root_member",
+        "n": 500
+      },
+      "locative_prefix_inv": {
+        "acc@1": 0.018,
+        "acc@5": 0.03,
+        "acc@10": 0.03,
+        "metric": "root_member",
+        "n": 500
+      },
+      "temporal_prefix_inv": {
+        "acc@1": 0.004,
+        "acc@5": 0.006,
+        "acc@10": 0.01,
+        "metric": "root_member",
+        "n": 500
+      },
+      "causative_inv": {
+        "acc@1": 0.138,
+        "acc@5": 0.224,
+        "acc@10": 0.244,
+        "metric": "root_member",
+        "n": 500
+      },
+      "detransitive_inv": {
+        "acc@1": 0.058,
+        "acc@5": 0.116,
+        "acc@10": 0.16,
+        "metric": "root_member",
+        "n": 500
+      }
+    }
+  }
+}

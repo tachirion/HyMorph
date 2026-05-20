@@ -1,0 +1,17 @@
+{
+  "completed_seeds": [
+    42,
+    9,
+    100,
+    666,
+    4
+  ],
+  "seed_run_dirs": {
+    "42": "final_run\\seed_42",
+    "9": "final_run\\seed_9",
+    "100": "final_run\\seed_100",
+    "666": "final_run\\seed_666",
+    "4": "final_run\\seed_4"
+  },
+  "best_ensemble_mode": "gate"
+}
