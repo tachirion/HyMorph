@@ -1,0 +1,68 @@
+global:
+  seed: 42
+
+models:
+  gcn:
+    embed_dim: 128
+    hidden_dim: 256
+    epochs: 200
+    lr: 0.0012333947342495013
+    dropout: 0.2
+    weight_decay: 0.000347959602731028
+    edge_type_aux: false
+    aux_weight: 0.3
+    pos_aux: true
+    pos_weight: 0.2
+
+  sage:
+    embed_dim: 64
+    hidden_dim: 128
+    epochs: 200
+    lr: 0.001073065254438595
+    dropout: 0.3
+    aggr: "mean"
+    weight_decay: 6.16141694679326e-05
+    edge_type_aux: false
+    aux_weight: 0.3
+    pos_aux: true
+    pos_weight: 0.2
+
+  gat:
+    embed_dim: 64
+    hidden_dim: 128
+    heads: 2
+    epochs: 200
+    lr: 0.0006203909847164703
+    dropout: 0.2
+    weight_decay: 0.0003928716137786385
+    edge_type_aux: false
+    aux_weight: 0.3
+    pos_aux: true
+    pos_weight: 0.1
+
+  rgcn:
+    embed_dim: 64
+    hidden_dim: 256
+    epochs: 200
+    lr: 0.0008592225728587435
+    num_bases: 32
+    dropout: 0.5
+    weight_decay: 0.00048591599724086986
+    edge_type_aux: true
+    aux_weight: 0.3
+    pos_aux: true
+    pos_weight: 0.1
+
+  ensemble:
+#    embed_dim: 64
+    epochs: 200
+    lr: 0.001
+
+baselines:
+  embed_dim: 64
+  walk_len: 10
+  n_walks: 20
+  window: 5n
+  epochs: 10
+  xlmr_model: "xlm-roberta-base"
+  xlmr_embed_dim: 256
