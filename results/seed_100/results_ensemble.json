@@ -1,0 +1,307 @@
+{
+  "ari": 0.03436581823951352,
+  "nmi": 0.08771165355725125,
+  "silhouette": 0.04958001896739006,
+  "nn_results": {
+    "գիր": [
+      "տապանագիր",
+      "տպագիր",
+      "եկագիր",
+      "վիպագիր",
+      "օրագիր"
+    ],
+    "գրիչ": [
+      "ցրիչ",
+      "տպագրիչ",
+      "փորագրիչ",
+      "քչփորիչ",
+      "փայտափորագրիչ"
+    ],
+    "գրություն": [
+      "սղագրություն",
+      "կցագրություն",
+      "չափագրություն",
+      "ծրագրություն",
+      "խազագրություն"
+    ],
+    "սիրել": [
+      "էլոքսիրել",
+      "սիրուհի",
+      "նախասիրել",
+      "սիրելի",
+      "սերել"
+    ],
+    "սիրուն": [
+      "սիրունիկ",
+      "սիրունանալ",
+      "սիրունադեմք",
+      "սիրունացնել",
+      "սերուն"
+    ],
+    "սիրահար": [
+      "սիրահարաբար",
+      "սիրահարեցնել",
+      "ինքնասիրահար",
+      "սիրահարկոտ",
+      "սիրահարական"
+    ],
+    "լույս": [
+      "լուսելույս",
+      "շվաքլույս",
+      "օրալույս",
+      "լույսամշուշ",
+      "նսեմալույս"
+    ],
+    "լուսին": [
+      "լուսիկ",
+      "լուսե",
+      "լուսով",
+      "անլուսին",
+      "լուսելուս"
+    ],
+    "լուսավոր": [
+      "լուսավորիչ",
+      "լուսավորում",
+      "լուսավորչական",
+      "լուսավորություն",
+      "լուսավորել"
+    ]
+  },
+  "analogy": {
+    "nominalization": {
+      "acc@1": 0.238,
+      "acc@5": 0.654,
+      "acc@10": 0.74,
+      "metric": "root_member",
+      "n": 500
+    },
+    "adjectivalization": {
+      "acc@1": 0.412,
+      "acc@5": 0.66,
+      "acc@10": 0.742,
+      "metric": "root_member",
+      "n": 500
+    },
+    "verbalization": {
+      "acc@1": 0.652,
+      "acc@5": 0.916,
+      "acc@10": 0.96,
+      "metric": "root_member",
+      "n": 500
+    },
+    "other_suffixation": {
+      "acc@1": 0.124,
+      "acc@5": 0.326,
+      "acc@10": 0.372,
+      "metric": "root_member",
+      "n": 500
+    },
+    "demonym": {
+      "acc@1": 0.596,
+      "acc@5": 0.818,
+      "acc@10": 0.876,
+      "metric": "root_member",
+      "n": 500
+    },
+    "negation_prefix": {
+      "acc@1": 0.688,
+      "acc@5": 0.87,
+      "acc@10": 0.922,
+      "metric": "root_member",
+      "n": 500
+    },
+    "intensifying_prefix": {
+      "acc@1": 0.83,
+      "acc@5": 0.912,
+      "acc@10": 0.934,
+      "metric": "root_member",
+      "n": 500
+    },
+    "directional_prefix": {
+      "acc@1": 0.606,
+      "acc@5": 0.752,
+      "acc@10": 0.864,
+      "metric": "root_member",
+      "n": 500
+    },
+    "locative_prefix": {
+      "acc@1": 0.726,
+      "acc@5": 0.878,
+      "acc@10": 0.928,
+      "metric": "root_member",
+      "n": 500
+    },
+    "temporal_prefix": {
+      "acc@1": 0.534,
+      "acc@5": 0.634,
+      "acc@10": 0.696,
+      "metric": "root_member",
+      "n": 500
+    },
+    "root_compound": {
+      "acc@1": 0.462,
+      "acc@5": 0.886,
+      "acc@10": 0.938,
+      "metric": "root_member",
+      "n": 500
+    },
+    "synthetic_compound": {
+      "acc@1": 0.254,
+      "acc@5": 0.508,
+      "acc@10": 0.614,
+      "metric": "root_member",
+      "n": 500
+    },
+    "adjective_compound": {
+      "acc@1": 0.26,
+      "acc@5": 0.638,
+      "acc@10": 0.756,
+      "metric": "root_member",
+      "n": 500
+    },
+    "compound_component": {
+      "acc@1": 0.16,
+      "acc@5": 0.342,
+      "acc@10": 0.436,
+      "metric": "root_member",
+      "n": 500
+    },
+    "causative": {
+      "acc@1": 0.64,
+      "acc@5": 0.77,
+      "acc@10": 0.802,
+      "metric": "root_member",
+      "n": 500
+    },
+    "detransitive": {
+      "acc@1": 0.972,
+      "acc@5": 1.0,
+      "acc@10": 1.0,
+      "metric": "root_member",
+      "n": 500
+    },
+    "diminutive": {
+      "acc@1": 0.472,
+      "acc@5": 0.802,
+      "acc@10": 0.906,
+      "metric": "root_member",
+      "n": 500
+    },
+    "reduplication": {
+      "acc@1": 0.962,
+      "acc@5": 1.0,
+      "acc@10": 1.0,
+      "metric": "root_member",
+      "n": 500
+    },
+    "denominalization": {
+      "acc@1": 0.192,
+      "acc@5": 0.342,
+      "acc@10": 0.398,
+      "metric": "root_member",
+      "n": 500
+    },
+    "deadjectivalization": {
+      "acc@1": 0.356,
+      "acc@5": 0.66,
+      "acc@10": 0.734,
+      "metric": "root_member",
+      "n": 500
+    },
+    "deverbalization": {
+      "acc@1": 0.374,
+      "acc@5": 0.696,
+      "acc@10": 0.8,
+      "metric": "root_member",
+      "n": 500
+    },
+    "other_suffixation_inv": {
+      "acc@1": 0.186,
+      "acc@5": 0.34,
+      "acc@10": 0.398,
+      "metric": "root_member",
+      "n": 500
+    },
+    "demonym_inv": {
+      "acc@1": 0.57,
+      "acc@5": 0.892,
+      "acc@10": 0.94,
+      "metric": "root_member",
+      "n": 500
+    },
+    "negation_prefix_inv": {
+      "acc@1": 0.78,
+      "acc@5": 0.956,
+      "acc@10": 0.992,
+      "metric": "root_member",
+      "n": 500
+    },
+    "intensifying_prefix_inv": {
+      "acc@1": 0.74,
+      "acc@5": 0.98,
+      "acc@10": 1.0,
+      "metric": "root_member",
+      "n": 500
+    },
+    "directional_prefix_inv": {
+      "acc@1": 0.436,
+      "acc@5": 0.564,
+      "acc@10": 0.646,
+      "metric": "root_member",
+      "n": 500
+    },
+    "locative_prefix_inv": {
+      "acc@1": 0.406,
+      "acc@5": 0.676,
+      "acc@10": 0.738,
+      "metric": "root_member",
+      "n": 500
+    },
+    "temporal_prefix_inv": {
+      "acc@1": 0.428,
+      "acc@5": 0.802,
+      "acc@10": 0.898,
+      "metric": "root_member",
+      "n": 500
+    },
+    "causative_inv": {
+      "acc@1": 0.316,
+      "acc@5": 0.64,
+      "acc@10": 0.722,
+      "metric": "root_member",
+      "n": 500
+    },
+    "detransitive_inv": {
+      "acc@1": 0.824,
+      "acc@5": 0.916,
+      "acc@10": 0.922,
+      "metric": "root_member",
+      "n": 500
+    }
+  },
+  "auc": 0.9985517185187911,
+  "ap": 0.9983119162504002,
+  "f1": 0.9857863365428703,
+  "precision": 0.9852216748768473,
+  "recall": 0.9863516458309439,
+  "mrr": 0.9411719169565512,
+  "hits1": 0.8968344993691937,
+  "hits5": 0.9930611308636311,
+  "hits10": 0.9974194288335818,
+  "ensemble_results": {
+    "gate": {
+      "auc": 0.9985517185187911,
+      "ap": 0.9983119162504002,
+      "f1": 0.9857863365428703,
+      "precision": 0.9852216748768473,
+      "recall": 0.9863516458309439,
+      "mrr": 0.9411719169565512,
+      "hits1": 0.8968344993691937,
+      "hits5": 0.9930611308636311,
+      "hits10": 0.9974194288335818
+    },
+    "best_mode": "gate"
+  },
+  "best_mode": "gate",
+  "aux_embedding": "FastText"
+}
