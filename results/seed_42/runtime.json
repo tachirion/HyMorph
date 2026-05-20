@@ -1,0 +1,37 @@
+{
+  "seed": 42,
+  "timestamp": "2026-05-13T08:54:12.976000",
+  "device": "cpu",
+  "command_line_args": {
+    "nodes": "runs/scrape_run_20260507_1728/output/nodes.csv",
+    "edges": "runs/scrape_run_20260507_1728/output/edges.csv",
+    "config": "config.yaml",
+    "out_dir": "final_run",
+    "seeds": [
+      42,
+      9,
+      100,
+      666,
+      4
+    ],
+    "ci_level": 0.95,
+    "ci_method": "bootstrap",
+    "skip_baselines": false,
+    "skip_topology": false,
+    "load_baselines": null,
+    "load_topology": null,
+    "neg_dir": "runs/scrape_run_20260507_1728/output",
+    "model_only": null
+  },
+  "cuda_available": false,
+  "cuda_version": null,
+  "python_version": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "torch_version": "2.11.0+cpu",
+  "torch_geometric_version": "2.7.0",
+  "numpy_version": "2.4.4",
+  "pandas_version": "3.0.2",
+  "sklearn_version": "1.8.0",
+  "gensim_version": "4.4.0",
+  "networkx_version": "3.6.1",
+  "platform": "win32"
+}
